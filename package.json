@@ -1,4 +1,4 @@
-#this is to create a sample package on cloud run to run a hellow world website
+// This is to create a sample package on cloud run to run a hellow world website
 {
   "name": "helloworld",
   "description": "Simple hello world sample in Node",
