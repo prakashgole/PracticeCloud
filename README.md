@@ -2,6 +2,9 @@
 Repository to practice cloud computing
 Adding an sample node js application to create webserver using cloud run
 
+gcloud config set compute/region asia-south1
+LOCATION="asia-south1"
+
 git clone https://github.com/prakashgole/PracticeCloud
 
 
