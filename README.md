@@ -11,9 +11,12 @@ Dockerfile is needed to containerize the sample app
 
 Build container image using cloud build command
 gcloud builds submit --tag gcr.io/$GOOGLE_CLOUD_PROJECT/helloworld
+
 It executes a series of build steps, where each build step is run in a Docker container to produce your application container (or other artifacts) and push it to Cloud Registry
 
+
 Deploying your containerized application to Cloud Run is done using the following command 
+
 gcloud run deploy --image gcr.io/$GOOGLE_CLOUD_PROJECT/helloworld --allow-unauthenticated --region=$LOCATION
 
 
