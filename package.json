@@ -12,8 +12,4 @@
   "dependencies": {
     "express": "^4.17.1"
   }
-  {
-  "Id": 1,
-  "Prakash_comment": "This is to create a sample package on cloud run to run a hellow world website"
-  } 
 }
