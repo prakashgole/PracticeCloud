@@ -2,6 +2,9 @@
 Repository to practice cloud computing
 Adding an sample node js application to create webserver using cloud run
 
+git clone https://github.com/prakashgole/PracticeCloud
+
+
 Package.json -- Contains JSON variables
 the file above contains a start script command and a dependency on the Express web application framework.
 
